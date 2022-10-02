@@ -10,6 +10,12 @@ namespace Chapter2
               {
                      System.Data.DataSet ds;
                      System.Net.Http.HttpClient client;
+                     object height = 1.88; // storing a double in an object
+                     object name = "Amir"; // storing a string in an object
+                     Console.WriteLine($"{name} is {height} metres tall.");
+                     //int length1 = name.Length; // gives compile error!
+                     int length2 = ((string)name).Length; // tell compiler it is a string
+                     Console.WriteLine($"{name} has {length2} characters.");
                      Console.WriteLine("Using decimals:");
                      decimal c = 0.1M; // M suffix means a decimal literal value
                      decimal d = 0.2M;
