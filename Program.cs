@@ -2,7 +2,7 @@
 using System.Reflection;
 
 
-namespace Testing_grounds
+namespace Chapter2
 {
        class Program
        {
@@ -10,6 +10,17 @@ namespace Testing_grounds
               {
                      System.Data.DataSet ds;
                      System.Net.Http.HttpClient client;
+                     Console.WriteLine("Using decimals:");
+                     decimal c = 0.1M; // M suffix means a decimal literal value
+                     decimal d = 0.2M;
+                     if (c + d == 0.3M)
+                     {
+                            Console.WriteLine($"{c} + {d} equals 0.3");
+                     }
+                     else
+                     {
+                            Console.WriteLine($"{c} + {d} does NOT equal 0.3");
+                     }
                      Console.WriteLine($"int uses {sizeof(int)} bytes and can store numbers in the range {int.MinValue:N0} to {int.MaxValue:N0}.");
                      Console.WriteLine($"double uses {sizeof(double)} bytes and can store numbers in the range {double.MinValue:N0} to {double.MaxValue:N0}.");
                      Console.WriteLine($"decimal uses {sizeof(decimal)} bytes and can store numbers in the range {decimal.MinValue:N0} to {decimal.MaxValue:N0}.");
