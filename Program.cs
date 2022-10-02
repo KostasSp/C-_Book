@@ -10,6 +10,9 @@ namespace Testing_grounds
               {
                      System.Data.DataSet ds;
                      System.Net.Http.HttpClient client;
+                     Console.WriteLine($"int uses {sizeof(int)} bytes and can store numbers in the range {int.MinValue:N0} to {int.MaxValue:N0}.");
+                     Console.WriteLine($"double uses {sizeof(double)} bytes and can store numbers in the range {double.MinValue:N0} to {double.MaxValue:N0}.");
+                     Console.WriteLine($"decimal uses {sizeof(decimal)} bytes and can store numbers in the range {decimal.MinValue:N0} to {decimal.MaxValue:N0}.");
                      // loop through the assemblies that this app references 
                      foreach (var r in Assembly.GetEntryAssembly()
                       .GetReferencedAssemblies())
