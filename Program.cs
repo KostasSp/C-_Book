@@ -17,6 +17,9 @@ namespace Chapter2
                      int length2 = ((string)name).Length; // tell compiler it is a string
                      Console.WriteLine($"{name} has {length2} characters.");
                      Console.WriteLine("Using decimals:");
+                     dynamic anotherName = "Ahmed";
+                     Console.WriteLine(anotherName.Length);
+                     StreamWriter file2 = File.CreateText(@"C:\something.txt");
                      decimal c = 0.1M; // M suffix means a decimal literal value
                      decimal d = 0.2M;
                      if (c + d == 0.3M)
