@@ -1,9 +1,11 @@
 ﻿using System.Linq;
 using System.Reflection;
 
+#nullable enable
 
 namespace Chapter2
 {
+
        class Program
        {
               static void Main(string[] args)
@@ -29,6 +31,16 @@ namespace Chapter2
                      names[1] = "Jack";
                      names[2] = "Rebecca";
                      names[3] = "Tom";
+                     foreach (string i in names)
+                     {
+                            Console.WriteLine(i);
+                     }
+                     int? thisCouldBeNull = null;
+                     Console.WriteLine(thisCouldBeNull);
+                     Console.WriteLine(thisCouldBeNull.GetValueOrDefault());
+                     thisCouldBeNull = 7;
+                     Console.WriteLine(thisCouldBeNull);
+                     Console.WriteLine(thisCouldBeNull.GetValueOrDefault());
                      //StreamWriter file2 = File.CreateText(@"C:\something.txt");
                      decimal c = 0.1M; // M suffix means a decimal literal value
                      decimal d = 0.2M;
