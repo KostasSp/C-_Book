@@ -19,7 +19,17 @@ namespace Chapter2
                      Console.WriteLine("Using decimals:");
                      dynamic anotherName = "Ahmed";
                      Console.WriteLine(anotherName.Length);
-                     StreamWriter file2 = File.CreateText(@"C:\something.txt");
+                     Console.WriteLine($"default(int) = {default(int)}");
+                     Console.WriteLine($"default(bool) = {default(bool)}");
+                     Console.WriteLine($"default(DateTime) = {default(DateTime)}");
+                     Console.WriteLine($"default(string) = {default(string)}");
+                     string[] names;
+                     names = new string[5];
+                     names[0] = "Kate";
+                     names[1] = "Jack";
+                     names[2] = "Rebecca";
+                     names[3] = "Tom";
+                     //StreamWriter file2 = File.CreateText(@"C:\something.txt");
                      decimal c = 0.1M; // M suffix means a decimal literal value
                      decimal d = 0.2M;
                      if (c + d == 0.3M)
