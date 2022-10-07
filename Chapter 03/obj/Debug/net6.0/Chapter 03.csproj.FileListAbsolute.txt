@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\bin\Debug\net6.0\Chapter 03.exe
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\bin\Debug\net6.0\Chapter 03.deps.json
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\bin\Debug\net6.0\Chapter 03.runtimeconfig.json
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\bin\Debug\net6.0\Chapter 03.dll
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\bin\Debug\net6.0\Chapter 03.pdb
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.AssemblyInfo.cs
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.dll
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\refint\Chapter 03.dll
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.pdb
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\Chapter 03.genruntimeconfig.cache
+C:\Users\User\Desktop\.NET Core\Testing Ground\Chapter 03\obj\Debug\net6.0\ref\Chapter 03.dll
