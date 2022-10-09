@@ -25,6 +25,40 @@ class CastingConverting
               double g = 9.8;
               int h = ToInt32(g);
               Console.WriteLine($"g is {g} and h is {h}");
+              int number = 12;
+              Console.WriteLine(number.ToString());
+              bool boolean = true;
+              Console.WriteLine(boolean.ToString());
+              DateTime now = DateTime.Now;
+              Console.WriteLine(now.ToString());
+              object me = new object();
+              Console.WriteLine(me.ToString());
+              byte[] binaryObject = new byte[128];
+              // populate array with random bytes 
+              (new Random()).NextBytes(binaryObject);
+              Console.WriteLine("Binary Object as bytes:");
+              for (int index = 0; index < binaryObject.Length; index++)
+              {
+                     Console.Write($"{binaryObject[index]:X} ");
+              }
+              Console.WriteLine();
+              int age = int.Parse("27");
+              DateTime birthday = DateTime.Parse("4 July 1900");
+              Console.WriteLine($"I was born {age} years ago.");
+              Console.WriteLine($"My birthday is {birthday}.");
+              Console.WriteLine($"My birthday is {birthday:D}.");
+              // int count = int.Parse("abc");
+              Console.Write("How many eggs are there? ");
+              int count;
+              string input = Console.ReadLine();
+              if (int.TryParse(input, out count))
+              {
+                     Console.WriteLine($"There are {count} eggs.");
+              }
+              else
+              {
+                     Console.WriteLine("I could not parse the input.");
+              }
 
        }
 }
