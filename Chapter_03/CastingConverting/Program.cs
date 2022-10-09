@@ -59,6 +59,25 @@ class CastingConverting
               {
                      Console.WriteLine("I could not parse the input.");
               }
+              Console.WriteLine("Before parsing");
+              Console.Write("What is your age? ");
+              string input2 = Console.ReadLine();
+              try
+              {
+                     int age2 = int.Parse(input2);
+                     Console.WriteLine($"You are {age2} years old.");
+              }
+              //catch specific exception
+              catch (FormatException)
+              {
+                     Console.WriteLine("The age you entered is not a valid number format.");
+              }
+              //this still would catch the above exception, and using the methods available to exceptions
+              catch (Exception ex)
+              {
+                     Console.WriteLine($"{ex.GetType()} says {ex.Message}");
+              }
+              Console.WriteLine("After parsing");
 
        }
 }
